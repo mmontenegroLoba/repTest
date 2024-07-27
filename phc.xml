@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>default</label>
+    <protected>false</protected>
+    <values>
+        <field>AccountEditErrorLogTemplate__c</field>
+        <value xsi:type="xsd:string">Account {0} ({1}) error: {3}</value>
+    </values>
+    <values>
+        <field>AccountEditErrorMessage__c</field>
+        <value xsi:type="xsd:string">Contas com contacto gerado em PHC não podem ser editadas</value>
+    </values>
+    <values>
+        <field>AccountLeadConversionFields__c</field>
+        <value xsi:type="xsd:string">FamiliasEquipamentos__c,NIF__c,Commercial_Name__c,BillingStreet,BillingCity,BillingPostalCode,BillingState,BillingStateCode,BillingCountry,BillingCountryCode,Name,Fax,Industry,Phone,Rating,Website,LeadId__c,Campaign__c,CampaignId__c</value>
+    </values>
+    <values>
+        <field>BlockSyncedAccountEditSF__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>CustomPermissionAccountEditSF__c</field>
+        <value xsi:type="xsd:string">Block_Edit_Accounts</value>
+    </values>
+    <values>
+        <field>FieldsAllowEditSF__c</field>
+        <value xsi:type="xsd:string">LastModifiedDate,LastModifiedById,phc_contact_num__c,ws_update__c,total_faturas_fastfer__c,Total_Faturas_FERNETO__c,Total_T_tulos_Carteira__c,Total_T_tulos_em_Carteira__c,ParentId,Description,Observations__c,Site,AnnualRevenue,Copy_Address__c,Jigsaw,Tier,NumberOfEmployees,Structure__c,FamiliasEquipamentos__c,Instagram__c,Rating,IsConverted,LeadId__c,ShippingCountry,ShippingCity,ShippingCountryCode,ShippingGeocodeAccuracy,ShippingLatitude,ShippingLongitude,ShippingPostalCode,ShippingState,ShippingStateCode,ShippingStreet,Facebook__c,OtherEmail__c,Website,RecordTypeId,AnnualRevenue,Establishment__c,Inactive__c,Industry,Use_Commercial_Name__c,Email__c,Phone,Type,Campaign__c,CampaignId__c</value>
+    </values>
+    <values>
+        <field>TaskSubjectUpdateAccount__c</field>
+        <value xsi:type="xsd:string">Lead Convertida: dados a atualizar</value>
+    </values>
+</CustomMetadata>
